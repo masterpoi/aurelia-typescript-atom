@@ -14,10 +14,8 @@ This sample shows:
 
 * Aurelia, 
 * the Aurelia DTS (TypeScript Definition) files, 
-* ESRI JavaScript API, 
 * the Aurelia AMD Bundle, and 
-* the dojo requirejs AMD module loader.
-
+* 
 At present, only the `latest` version is working.
 
 ## Links
