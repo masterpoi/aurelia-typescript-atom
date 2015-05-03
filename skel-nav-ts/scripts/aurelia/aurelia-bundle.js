@@ -1,5 +1,5 @@
 define('aurelia-path',['exports'], function (exports) {
-  
+
 
   Object.defineProperty(exports, '__esModule', {
     value: true
@@ -135,7 +135,7 @@ define('aurelia-path',['exports'], function (exports) {
   }
 });
 define('aurelia-loader/template-registry-entry',['exports', 'aurelia-path'], function (exports, _aureliaPath) {
-  
+
 
   var _createClass = (function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ('value' in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; })();
 
@@ -612,7 +612,7 @@ var __e = null, __g = null;
 /* 2 */
 /***/ function(module, exports, __webpack_require__) {
 
-	
+
 	// ECMAScript 6 symbols shim
 	var $        = __webpack_require__(59)
 	  , setTag   = __webpack_require__(61).set
@@ -805,7 +805,7 @@ var __e = null, __g = null;
 /* 6 */
 /***/ function(module, exports, __webpack_require__) {
 
-	
+
 	// 19.1.3.6 Object.prototype.toString()
 	var $   = __webpack_require__(59)
 	  , cof = __webpack_require__(61)
@@ -862,7 +862,7 @@ var __e = null, __g = null;
 /* 8 */
 /***/ function(module, exports, __webpack_require__) {
 
-	
+
 	var $    = __webpack_require__(59)
 	  , NAME = 'name'
 	  , setDesc = $.setDesc
@@ -885,7 +885,7 @@ var __e = null, __g = null;
 /* 9 */
 /***/ function(module, exports, __webpack_require__) {
 
-	
+
 	var $          = __webpack_require__(59)
 	  , isObject   = $.isObject
 	  , isFunction = $.isFunction
@@ -1184,7 +1184,7 @@ var __e = null, __g = null;
 /* 16 */
 /***/ function(module, exports, __webpack_require__) {
 
-	
+
 	var $    = __webpack_require__(59)
 	  , cof  = __webpack_require__(61)
 	  , $def = __webpack_require__(62)
@@ -1208,7 +1208,7 @@ var __e = null, __g = null;
 /* 17 */
 /***/ function(module, exports, __webpack_require__) {
 
-	
+
 	var $    = __webpack_require__(59)
 	  , cof  = __webpack_require__(61)
 	  , $def = __webpack_require__(62);
@@ -1225,7 +1225,7 @@ var __e = null, __g = null;
 /* 18 */
 /***/ function(module, exports, __webpack_require__) {
 
-	
+
 	var $    = __webpack_require__(59)
 	  , $def = __webpack_require__(62);
 
@@ -1245,7 +1245,7 @@ var __e = null, __g = null;
 /* 19 */
 /***/ function(module, exports, __webpack_require__) {
 
-	
+
 	var $    = __webpack_require__(59)
 	  , cof  = __webpack_require__(61)
 	  , $def = __webpack_require__(62);
@@ -1366,7 +1366,7 @@ var __e = null, __g = null;
 /* 24 */
 /***/ function(module, exports, __webpack_require__) {
 
-	
+
 	var $       = __webpack_require__(59)
 	  , $def    = __webpack_require__(62)
 	  , toIndex = $.toIndex;
@@ -1400,7 +1400,7 @@ var __e = null, __g = null;
 /* 25 */
 /***/ function(module, exports, __webpack_require__) {
 
-	
+
 	var $       = __webpack_require__(59)
 	  , $def    = __webpack_require__(62)
 	  , toIndex = $.toIndex;
@@ -1481,7 +1481,7 @@ var __e = null, __g = null;
 /* 29 */
 /***/ function(module, exports, __webpack_require__) {
 
-	
+
 	var $        = __webpack_require__(59)
 	  , ctx      = __webpack_require__(78)
 	  , cof      = __webpack_require__(61)
@@ -1715,7 +1715,7 @@ var __e = null, __g = null;
 /* 30 */
 /***/ function(module, exports, __webpack_require__) {
 
-	
+
 	var strong = __webpack_require__(86);
 
 	// 23.1 Map Objects
@@ -1735,7 +1735,7 @@ var __e = null, __g = null;
 /* 31 */
 /***/ function(module, exports, __webpack_require__) {
 
-	
+
 	var strong = __webpack_require__(86);
 
 	// 23.2 Set Objects
@@ -1750,7 +1750,7 @@ var __e = null, __g = null;
 /* 32 */
 /***/ function(module, exports, __webpack_require__) {
 
-	
+
 	var $         = __webpack_require__(59)
 	  , weak      = __webpack_require__(88)
 	  , leakStore = weak.leakStore
@@ -1795,7 +1795,7 @@ var __e = null, __g = null;
 /* 33 */
 /***/ function(module, exports, __webpack_require__) {
 
-	
+
 	var weak = __webpack_require__(88);
 
 	// 23.4 WeakSet Objects
@@ -2251,7 +2251,7 @@ var __e = null, __g = null;
 /* 47 */
 /***/ function(module, exports, __webpack_require__) {
 
-	
+
 	var $       = __webpack_require__(59)
 	  , ctx     = __webpack_require__(78)
 	  , safe    = __webpack_require__(65).safe
@@ -2346,7 +2346,7 @@ var __e = null, __g = null;
 /* 49 */
 /***/ function(module, exports, __webpack_require__) {
 
-	
+
 	var $    = __webpack_require__(59)
 	  , $def = __webpack_require__(62);
 
@@ -2384,7 +2384,7 @@ var __e = null, __g = null;
 /* 51 */
 /***/ function(module, exports, __webpack_require__) {
 
-	
+
 	var $              = __webpack_require__(59)
 	  , $def           = __webpack_require__(62)
 	  , assertFunction = __webpack_require__(66).fn;
@@ -2405,7 +2405,7 @@ var __e = null, __g = null;
 /* 52 */
 /***/ function(module, exports, __webpack_require__) {
 
-	
+
 	var $    = __webpack_require__(59)
 	  , ITER = __webpack_require__(65).safe('iter');
 
@@ -2422,7 +2422,7 @@ var __e = null, __g = null;
 /* 53 */
 /***/ function(module, exports, __webpack_require__) {
 
-	
+
 	var $       = __webpack_require__(59)
 	  , $def    = __webpack_require__(62)
 	  , invoke  = __webpack_require__(63)
@@ -2610,7 +2610,7 @@ var __e = null, __g = null;
 /* 59 */
 /***/ function(module, exports, __webpack_require__) {
 
-	
+
 	var global = typeof self != 'undefined' ? self : Function('return this')()
 	  , core   = {}
 	  , defineProperty = Object.defineProperty
@@ -2822,7 +2822,7 @@ var __e = null, __g = null;
 /* 64 */
 /***/ function(module, exports, __webpack_require__) {
 
-	
+
 	// 0 -> Array#forEach
 	// 1 -> Array#map
 	// 2 -> Array#filter
@@ -2902,7 +2902,7 @@ var __e = null, __g = null;
 /* 67 */
 /***/ function(module, exports, __webpack_require__) {
 
-	
+
 	// false -> Array#indexOf
 	// true  -> Array#includes
 	var $ = __webpack_require__(59);
@@ -2925,7 +2925,7 @@ var __e = null, __g = null;
 /* 68 */
 /***/ function(module, exports, __webpack_require__) {
 
-	
+
 	module.exports = function(regExp, replace, isStatic){
 	  var replacer = replace === Object(replace) ? function(part){
 	    return replace[part];
@@ -3033,7 +3033,7 @@ var __e = null, __g = null;
 /* 74 */
 /***/ function(module, exports, __webpack_require__) {
 
-	
+
 	// true  -> String#at
 	// false -> String#codePointAt
 	var $ = __webpack_require__(59);
@@ -3056,7 +3056,7 @@ var __e = null, __g = null;
 /* 75 */
 /***/ function(module, exports, __webpack_require__) {
 
-	
+
 	var $                 = __webpack_require__(59)
 	  , cof               = __webpack_require__(61)
 	  , assertObject      = __webpack_require__(66).obj
@@ -3290,7 +3290,7 @@ var __e = null, __g = null;
 /* 85 */
 /***/ function(module, exports, __webpack_require__) {
 
-	
+
 	var $      = __webpack_require__(59)
 	  , ctx    = __webpack_require__(78)
 	  , cof    = __webpack_require__(61)
@@ -3376,7 +3376,7 @@ var __e = null, __g = null;
 /* 86 */
 /***/ function(module, exports, __webpack_require__) {
 
-	
+
 	var $        = __webpack_require__(59)
 	  , ctx      = __webpack_require__(78)
 	  , safe     = __webpack_require__(65).safe
@@ -3537,7 +3537,7 @@ var __e = null, __g = null;
 /* 87 */
 /***/ function(module, exports, __webpack_require__) {
 
-	
+
 	var $     = __webpack_require__(59)
 	  , $def  = __webpack_require__(62)
 	  , BUGGY = __webpack_require__(75).BUGGY
@@ -3607,7 +3607,7 @@ var __e = null, __g = null;
 /* 88 */
 /***/ function(module, exports, __webpack_require__) {
 
-	
+
 	var $         = __webpack_require__(59)
 	  , safe      = __webpack_require__(65).safe
 	  , assert    = __webpack_require__(66)
@@ -3726,7 +3726,7 @@ var __e = null, __g = null;
 /* 91 */
 /***/ function(module, exports, __webpack_require__) {
 
-	
+
 	var $      = __webpack_require__(59)
 	  , invoke = __webpack_require__(63)
 	  , assertFunction = __webpack_require__(66).fn;
@@ -3772,7 +3772,7 @@ else __g.core = __e;
 define('core-js', ['core-js/core'], function (main) { return main; });
 
 define('aurelia-loader/loader',['exports', 'core-js', './template-registry-entry'], function (exports, _coreJs, _templateRegistryEntry) {
-  
+
 
   var _interopRequire = function (obj) { return obj && obj.__esModule ? obj['default'] : obj; };
 
@@ -3879,7 +3879,7 @@ define('aurelia-loader/loader',['exports', 'core-js', './template-registry-entry
   exports.Loader = Loader;
 });
 define('aurelia-loader/index',['exports', './template-registry-entry', './loader'], function (exports, _templateRegistryEntry, _loader) {
-  
+
 
   Object.defineProperty(exports, '__esModule', {
     value: true
@@ -3906,7 +3906,7 @@ define('aurelia-loader/index',['exports', './template-registry-entry', './loader
 define('aurelia-loader', ['aurelia-loader/index'], function (main) { return main; });
 
 define('aurelia-metadata/origin',['exports', 'core-js'], function (exports, _coreJs) {
-  
+
 
   var _interopRequire = function (obj) { return obj && obj.__esModule ? obj['default'] : obj; };
 
@@ -3970,7 +3970,7 @@ define('aurelia-metadata/origin',['exports', 'core-js'], function (exports, _cor
   exports.Origin = Origin;
 });
 define('aurelia-metadata/resource-type',['exports'], function (exports) {
-  
+
 
   var _classCallCheck = function (instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError('Cannot call a class as a function'); } };
 
@@ -4003,7 +4003,7 @@ define('aurelia-metadata/resource-type',['exports'], function (exports) {
   exports.ResourceType = ResourceType;
 });
 define('aurelia-metadata/metadata',['exports', 'core-js'], function (exports, _coreJs) {
-  
+
 
   var _interopRequire = function (obj) { return obj && obj.__esModule ? obj['default'] : obj; };
 
@@ -4203,7 +4203,7 @@ define('aurelia-metadata/metadata',['exports', 'core-js'], function (exports, _c
   exports.Metadata = Metadata;
 });
 define('aurelia-metadata/decorator-applicator',['exports', './metadata'], function (exports, _metadata) {
-  
+
 
   var _classCallCheck = function (instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError('Cannot call a class as a function'); } };
 
@@ -4291,7 +4291,7 @@ define('aurelia-metadata/decorator-applicator',['exports', './metadata'], functi
   exports.DecoratorApplicator = DecoratorApplicator;
 });
 define('aurelia-metadata/decorators',['exports', './decorator-applicator'], function (exports, _decoratorApplicator) {
-  
+
 
   Object.defineProperty(exports, '__esModule', {
     value: true
@@ -4323,7 +4323,7 @@ define('aurelia-metadata/decorators',['exports', './decorator-applicator'], func
   exports.Decorators = Decorators;
 });
 define('aurelia-metadata/index',['exports', './origin', './resource-type', './metadata', './decorators'], function (exports, _origin, _resourceType, _metadata, _decorators) {
-  
+
 
   Object.defineProperty(exports, '__esModule', {
     value: true
@@ -4356,7 +4356,7 @@ define('aurelia-metadata/index',['exports', './origin', './resource-type', './me
 define('aurelia-metadata', ['aurelia-metadata/index'], function (main) { return main; });
 
 define('aurelia-loader-default',['exports', 'aurelia-metadata', 'aurelia-loader'], function (exports, _aureliaMetadata, _aureliaLoader) {
-  
+
 
   var _classCallCheck = function (instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError('Cannot call a class as a function'); } };
 
@@ -4539,7 +4539,7 @@ define('aurelia-loader-default',['exports', 'aurelia-metadata', 'aurelia-loader'
   window.AureliaLoader = DefaultLoader;
 });
 define('aurelia-task-queue',['exports'], function (exports) {
-  
+
 
   var _classCallCheck = function (instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError('Cannot call a class as a function'); } };
 
@@ -4693,7 +4693,7 @@ define('aurelia-task-queue',['exports'], function (exports) {
   exports.TaskQueue = TaskQueue;
 });
 define('aurelia-logging',['exports'], function (exports) {
-  
+
 
   var _classCallCheck = function (instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError('Cannot call a class as a function'); } };
 
@@ -4852,7 +4852,7 @@ define('aurelia-logging',['exports'], function (exports) {
   exports.Logger = Logger;
 });
 define('aurelia-logging-console',['exports'], function (exports) {
-  
+
 
   var _classCallCheck = function (instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError('Cannot call a class as a function'); } };
 
@@ -4863,7 +4863,7 @@ define('aurelia-logging-console',['exports'], function (exports) {
   });
 
   (function (global) {
-    
+
     global.console = global.console || {};
     var con = global.console;
     var prop, method;
@@ -4924,7 +4924,7 @@ define('aurelia-logging-console',['exports'], function (exports) {
   exports.ConsoleAppender = ConsoleAppender;
 });
 define('aurelia-history',['exports'], function (exports) {
-  
+
 
   var _classCallCheck = function (instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError('Cannot call a class as a function'); } };
 
@@ -4967,7 +4967,7 @@ define('aurelia-history',['exports'], function (exports) {
   exports.History = History;
 });
 define('aurelia-history-browser',['exports', 'core-js', 'aurelia-history'], function (exports, _coreJs, _aureliaHistory) {
-  
+
 
   var _interopRequire = function (obj) { return obj && obj.__esModule ? obj['default'] : obj; };
 
@@ -5204,7 +5204,7 @@ define('aurelia-history-browser',['exports', 'core-js', 'aurelia-history'], func
   }
 });
 define('aurelia-event-aggregator',['exports'], function (exports) {
-  
+
 
   var _classCallCheck = function (instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError('Cannot call a class as a function'); } };
 
@@ -5327,7 +5327,7 @@ define('aurelia-event-aggregator',['exports'], function (exports) {
   }
 });
 define('aurelia-dependency-injection/metadata',['exports', 'core-js'], function (exports, _coreJs) {
-  
+
 
   var _interopRequire = function (obj) { return obj && obj.__esModule ? obj['default'] : obj; };
 
@@ -5617,7 +5617,7 @@ define('aurelia-dependency-injection/metadata',['exports', 'core-js'], function 
   exports.FactoryActivator = FactoryActivator;
 });
 define('aurelia-dependency-injection/container',['exports', 'core-js', 'aurelia-metadata', 'aurelia-logging', './metadata'], function (exports, _coreJs, _aureliaMetadata, _aureliaLogging, _metadata) {
-  
+
 
   var _interopRequire = function (obj) { return obj && obj.__esModule ? obj['default'] : obj; };
 
@@ -5884,7 +5884,7 @@ define('aurelia-dependency-injection/container',['exports', 'core-js', 'aurelia-
   exports.Container = Container;
 });
 define('aurelia-dependency-injection/index',['exports', 'aurelia-metadata', './metadata', './container'], function (exports, _aureliaMetadata, _metadata, _container) {
-  
+
 
   Object.defineProperty(exports, '__esModule', {
     value: true
@@ -5996,7 +5996,7 @@ define('aurelia-dependency-injection/index',['exports', 'aurelia-metadata', './m
 define('aurelia-dependency-injection', ['aurelia-dependency-injection/index'], function (main) { return main; });
 
 define('aurelia-framework/plugins',['exports', 'core-js', 'aurelia-logging', 'aurelia-metadata'], function (exports, _coreJs, _aureliaLogging, _aureliaMetadata) {
-  
+
 
   var _interopRequire = function (obj) { return obj && obj.__esModule ? obj['default'] : obj; };
 
@@ -6125,7 +6125,7 @@ define('aurelia-framework/plugins',['exports', 'core-js', 'aurelia-logging', 'au
   exports.Plugins = Plugins;
 });
 define('aurelia-binding/value-converter',['exports', 'core-js', 'aurelia-metadata'], function (exports, _coreJs, _aureliaMetadata) {
-  
+
 
   var _interopRequire = function (obj) { return obj && obj.__esModule ? obj['default'] : obj; };
 
@@ -6187,7 +6187,7 @@ define('aurelia-binding/value-converter',['exports', 'core-js', 'aurelia-metadat
   exports.ValueConverterResource = ValueConverterResource;
 });
 define('aurelia-binding/event-manager',['exports'], function (exports) {
-  
+
 
   var _classCallCheck = function (instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError('Cannot call a class as a function'); } };
 
@@ -6385,7 +6385,7 @@ define('aurelia-binding/event-manager',['exports'], function (exports) {
   exports.EventManager = EventManager;
 });
 define('aurelia-binding/array-change-records',['exports'], function (exports) {
-  
+
 
   Object.defineProperty(exports, '__esModule', {
     value: true
@@ -6715,7 +6715,7 @@ define('aurelia-binding/array-change-records',['exports'], function (exports) {
   }
 });
 define('aurelia-binding/map-change-records',['exports'], function (exports) {
-  
+
 
   Object.defineProperty(exports, '__esModule', {
     value: true
@@ -6761,7 +6761,7 @@ define('aurelia-binding/map-change-records',['exports'], function (exports) {
   }
 });
 define('aurelia-binding/collection-observation',['exports', './array-change-records', './map-change-records'], function (exports, _arrayChangeRecords, _mapChangeRecords) {
-  
+
 
   var _classCallCheck = function (instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError('Cannot call a class as a function'); } };
 
@@ -6924,7 +6924,7 @@ define('aurelia-binding/collection-observation',['exports', './array-change-reco
   exports.CollectionLengthObserver = CollectionLengthObserver;
 });
 define('aurelia-binding/array-observation',['exports', './array-change-records', './collection-observation'], function (exports, _arrayChangeRecords, _collectionObservation) {
-  
+
 
   var _classCallCheck = function (instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError('Cannot call a class as a function'); } };
 
@@ -7134,7 +7134,7 @@ define('aurelia-binding/array-observation',['exports', './array-change-records',
   })();
 });
 define('aurelia-binding/map-observation',['exports', 'core-js', './map-change-records', './collection-observation'], function (exports, _coreJs, _mapChangeRecords, _collectionObservation) {
-  
+
 
   var _interopRequire = function (obj) { return obj && obj.__esModule ? obj['default'] : obj; };
 
@@ -7215,7 +7215,7 @@ define('aurelia-binding/map-observation',['exports', 'core-js', './map-change-re
   })(_collectionObservation.ModifyCollectionObserver);
 });
 define('aurelia-binding/dirty-checking',["exports"], function (exports) {
-  
+
 
   var _classCallCheck = function (instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } };
 
@@ -7368,7 +7368,7 @@ define('aurelia-binding/dirty-checking',["exports"], function (exports) {
   exports.DirtyCheckProperty = DirtyCheckProperty;
 });
 define('aurelia-binding/property-observation',['exports', 'core-js'], function (exports, _coreJs) {
-  
+
 
   var _interopRequire = function (obj) { return obj && obj.__esModule ? obj['default'] : obj; };
 
@@ -7726,7 +7726,7 @@ define('aurelia-binding/property-observation',['exports', 'core-js'], function (
   exports.UndefinedPropertyObserver = UndefinedPropertyObserver;
 });
 define('aurelia-binding/element-observation',['exports'], function (exports) {
-  
+
 
   var _classCallCheck = function (instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError('Cannot call a class as a function'); } };
 
@@ -8207,7 +8207,7 @@ define('aurelia-binding/element-observation',['exports'], function (exports) {
   exports.CheckedObserver = CheckedObserver;
 });
 define('aurelia-binding/computed-observation',['exports'], function (exports) {
-  
+
 
   var _classCallCheck = function (instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError('Cannot call a class as a function'); } };
 
@@ -8307,7 +8307,7 @@ define('aurelia-binding/computed-observation',['exports'], function (exports) {
   }
 });
 define('aurelia-binding/observer-locator',['exports', 'aurelia-task-queue', './array-observation', './map-observation', './event-manager', './dirty-checking', './property-observation', './element-observation', 'aurelia-dependency-injection', './computed-observation'], function (exports, _aureliaTaskQueue, _arrayObservation, _mapObservation, _eventManager, _dirtyChecking, _propertyObservation, _elementObservation, _aureliaDependencyInjection, _computedObservation) {
-  
+
 
   var _classCallCheck = function (instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError('Cannot call a class as a function'); } };
 
@@ -8555,7 +8555,7 @@ define('aurelia-binding/observer-locator',['exports', 'aurelia-task-queue', './a
   exports.ObjectObservationAdapter = ObjectObservationAdapter;
 });
 define('aurelia-binding/binding-modes',["exports"], function (exports) {
-  
+
 
   Object.defineProperty(exports, "__esModule", {
     value: true
@@ -8568,7 +8568,7 @@ define('aurelia-binding/binding-modes',["exports"], function (exports) {
   exports.ONE_TIME = ONE_TIME;
 });
 define('aurelia-binding/lexer',['exports'], function (exports) {
-  
+
 
   var _classCallCheck = function (instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError('Cannot call a class as a function'); } };
 
@@ -9008,7 +9008,7 @@ define('aurelia-binding/lexer',['exports'], function (exports) {
   }
 });
 define('aurelia-binding/path-observer',["exports"], function (exports) {
-  
+
 
   var _classCallCheck = function (instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } };
 
@@ -9091,7 +9091,7 @@ define('aurelia-binding/path-observer',["exports"], function (exports) {
   exports.PathObserver = PathObserver;
 });
 define('aurelia-binding/composite-observer',["exports"], function (exports) {
-  
+
 
   var _classCallCheck = function (instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } };
 
@@ -9153,7 +9153,7 @@ define('aurelia-binding/composite-observer',["exports"], function (exports) {
   exports.CompositeObserver = CompositeObserver;
 });
 define('aurelia-binding/ast',['exports', './path-observer', './composite-observer'], function (exports, _pathObserver, _compositeObserver) {
-  
+
 
   var _get = function get(object, property, receiver) { var desc = Object.getOwnPropertyDescriptor(object, property); if (desc === undefined) { var parent = Object.getPrototypeOf(object); if (parent === null) { return undefined; } else { return get(parent, property, receiver); } } else if ('value' in desc) { return desc.value; } else { var getter = desc.get; if (getter === undefined) { return undefined; } return getter.call(receiver); } };
 
@@ -10481,7 +10481,7 @@ define('aurelia-binding/ast',['exports', './path-observer', './composite-observe
   }
 });
 define('aurelia-binding/parser',['exports', './lexer', './ast'], function (exports, _lexer, _ast) {
-  
+
 
   var _classCallCheck = function (instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError('Cannot call a class as a function'); } };
 
@@ -10878,7 +10878,7 @@ define('aurelia-binding/parser',['exports', './lexer', './ast'], function (expor
   exports.ParserImplementation = ParserImplementation;
 });
 define('aurelia-binding/binding-expression',['exports', './binding-modes'], function (exports, _bindingModes) {
-  
+
 
   var _classCallCheck = function (instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError('Cannot call a class as a function'); } };
 
@@ -11002,7 +11002,7 @@ define('aurelia-binding/binding-expression',['exports', './binding-modes'], func
   })();
 });
 define('aurelia-binding/listener-expression',["exports"], function (exports) {
-  
+
 
   var _classCallCheck = function (instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } };
 
@@ -11087,7 +11087,7 @@ define('aurelia-binding/listener-expression',["exports"], function (exports) {
   })();
 });
 define('aurelia-binding/name-expression',['exports'], function (exports) {
-  
+
 
   var _classCallCheck = function (instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError('Cannot call a class as a function'); } };
 
@@ -11161,7 +11161,7 @@ define('aurelia-binding/name-expression',['exports'], function (exports) {
   })();
 });
 define('aurelia-binding/call-expression',["exports"], function (exports) {
-  
+
 
   var _classCallCheck = function (instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } };
 
@@ -11236,7 +11236,7 @@ define('aurelia-binding/call-expression',["exports"], function (exports) {
   })();
 });
 define('aurelia-binding/index',['exports', 'aurelia-metadata', './value-converter', './event-manager', './observer-locator', './array-change-records', './binding-modes', './parser', './binding-expression', './listener-expression', './name-expression', './call-expression', './dirty-checking', './map-change-records', './computed-observation'], function (exports, _aureliaMetadata, _valueConverter, _eventManager, _observerLocator, _arrayChangeRecords, _bindingModes, _parser, _bindingExpression, _listenerExpression, _nameExpression, _callExpression, _dirtyChecking, _mapChangeRecords, _computedObservation) {
-  
+
 
   var _interopRequireWildcard = function (obj) { return obj && obj.__esModule ? obj : { 'default': obj }; };
 
@@ -11361,7 +11361,7 @@ define('aurelia-binding/index',['exports', 'aurelia-metadata', './value-converte
 define('aurelia-binding', ['aurelia-binding/index'], function (main) { return main; });
 
 define('aurelia-templating/view-strategy',['exports', 'aurelia-metadata', 'aurelia-path'], function (exports, _aureliaMetadata, _aureliaPath) {
-  
+
 
   var _get = function get(object, property, receiver) { var desc = Object.getOwnPropertyDescriptor(object, property); if (desc === undefined) { var parent = Object.getPrototypeOf(object); if (parent === null) { return undefined; } else { return get(parent, property, receiver); } } else if ('value' in desc) { return desc.value; } else { var getter = desc.get; if (getter === undefined) { return undefined; } return getter.call(receiver); } };
 
@@ -11542,7 +11542,7 @@ define('aurelia-templating/view-strategy',['exports', 'aurelia-metadata', 'aurel
   exports.TemplateRegistryViewStrategy = TemplateRegistryViewStrategy;
 });
 define('aurelia-templating/resource-registry',['exports', 'aurelia-path'], function (exports, _aureliaPath) {
-  
+
 
   var _get = function get(object, property, receiver) { var desc = Object.getOwnPropertyDescriptor(object, property); if (desc === undefined) { var parent = Object.getPrototypeOf(object); if (parent === null) { return undefined; } else { return get(parent, property, receiver); } } else if ('value' in desc) { return desc.value; } else { var getter = desc.get; if (getter === undefined) { return undefined; } return getter.call(receiver); } };
 
@@ -11667,7 +11667,7 @@ define('aurelia-templating/resource-registry',['exports', 'aurelia-path'], funct
   exports.ViewResources = ViewResources;
 });
 define('aurelia-templating/view',["exports"], function (exports) {
-  
+
 
   var _classCallCheck = function (instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } };
 
@@ -11870,7 +11870,7 @@ define('aurelia-templating/view',["exports"], function (exports) {
   exports.View = View;
 });
 define('aurelia-templating/content-selector',['exports', 'core-js'], function (exports, _coreJs) {
-  
+
 
   var _interopRequire = function (obj) { return obj && obj.__esModule ? obj['default'] : obj; };
 
@@ -12015,7 +12015,7 @@ define('aurelia-templating/content-selector',['exports', 'core-js'], function (e
   exports.ContentSelector = ContentSelector;
 });
 define('aurelia-templating/animator',["exports"], function (exports) {
-  
+
 
   var _classCallCheck = function (instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } };
 
@@ -12068,7 +12068,7 @@ define('aurelia-templating/animator',["exports"], function (exports) {
   exports.Animator = Animator;
 });
 define('aurelia-templating/view-slot',['exports', './content-selector', './animator'], function (exports, _contentSelector, _animator) {
-  
+
 
   var _classCallCheck = function (instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError('Cannot call a class as a function'); } };
 
@@ -12419,7 +12419,7 @@ define('aurelia-templating/view-slot',['exports', './content-selector', './anima
   exports.ViewSlot = ViewSlot;
 });
 define('aurelia-templating/view-factory',['exports', 'aurelia-dependency-injection', './view', './view-slot', './content-selector', './resource-registry'], function (exports, _aureliaDependencyInjection, _view, _viewSlot, _contentSelector, _resourceRegistry) {
-  
+
 
   var _classCallCheck = function (instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError('Cannot call a class as a function'); } };
 
@@ -12598,7 +12598,7 @@ define('aurelia-templating/view-factory',['exports', 'aurelia-dependency-injecti
   exports.ViewFactory = ViewFactory;
 });
 define('aurelia-templating/binding-language',['exports'], function (exports) {
-  
+
 
   var _classCallCheck = function (instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError('Cannot call a class as a function'); } };
 
@@ -12636,7 +12636,7 @@ define('aurelia-templating/binding-language',['exports'], function (exports) {
   exports.BindingLanguage = BindingLanguage;
 });
 define('aurelia-templating/view-compiler',['exports', './resource-registry', './view-factory', './binding-language'], function (exports, _resourceRegistry, _viewFactory, _bindingLanguage) {
-  
+
 
   var _classCallCheck = function (instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError('Cannot call a class as a function'); } };
 
@@ -12933,7 +12933,7 @@ define('aurelia-templating/view-compiler',['exports', './resource-registry', './
   exports.ViewCompiler = ViewCompiler;
 });
 define('aurelia-templating/util',["exports"], function (exports) {
-  
+
 
   Object.defineProperty(exports, "__esModule", {
     value: true
@@ -12950,7 +12950,7 @@ define('aurelia-templating/util',["exports"], function (exports) {
   }
 });
 define('aurelia-templating/module-analyzer',['exports', 'aurelia-metadata', 'aurelia-loader', 'aurelia-binding', './html-behavior', './view-strategy', './util'], function (exports, _aureliaMetadata, _aureliaLoader, _aureliaBinding, _htmlBehavior, _viewStrategy, _util) {
-  
+
 
   var _classCallCheck = function (instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError('Cannot call a class as a function'); } };
 
@@ -13213,7 +13213,7 @@ define('aurelia-templating/module-analyzer',['exports', 'aurelia-metadata', 'aur
   exports.ModuleAnalyzer = ModuleAnalyzer;
 });
 define('aurelia-templating/view-engine',['exports', 'core-js', 'aurelia-logging', 'aurelia-metadata', 'aurelia-loader', 'aurelia-dependency-injection', './view-compiler', './resource-registry', './module-analyzer'], function (exports, _coreJs, _aureliaLogging, _aureliaMetadata, _aureliaLoader, _aureliaDependencyInjection, _viewCompiler, _resourceRegistry, _moduleAnalyzer) {
-  
+
 
   var _interopRequire = function (obj) { return obj && obj.__esModule ? obj['default'] : obj; };
 
@@ -13368,7 +13368,7 @@ define('aurelia-templating/view-engine',['exports', 'core-js', 'aurelia-logging'
   exports.ViewEngine = ViewEngine;
 });
 define('aurelia-templating/bindable-property',['exports', 'core-js', './util', 'aurelia-binding'], function (exports, _coreJs, _util, _aureliaBinding) {
-  
+
 
   var _interopRequire = function (obj) { return obj && obj.__esModule ? obj['default'] : obj; };
 
@@ -13614,7 +13614,7 @@ define('aurelia-templating/bindable-property',['exports', 'core-js', './util', '
   })();
 });
 define('aurelia-templating/behavior-instance',["exports"], function (exports) {
-  
+
 
   var _classCallCheck = function (instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } };
 
@@ -13749,7 +13749,7 @@ define('aurelia-templating/behavior-instance',["exports"], function (exports) {
   exports.BehaviorInstance = BehaviorInstance;
 });
 define('aurelia-templating/html-behavior',['exports', 'aurelia-metadata', 'aurelia-binding', 'aurelia-task-queue', './view-strategy', './view-engine', './content-selector', './util', './bindable-property', './behavior-instance'], function (exports, _aureliaMetadata, _aureliaBinding, _aureliaTaskQueue, _viewStrategy, _viewEngine, _contentSelector, _util, _bindableProperty, _behaviorInstance) {
-  
+
 
   var _classCallCheck = function (instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError('Cannot call a class as a function'); } };
 
@@ -14028,7 +14028,7 @@ define('aurelia-templating/html-behavior',['exports', 'aurelia-metadata', 'aurel
   exports.HtmlBehaviorResource = HtmlBehaviorResource;
 });
 define('aurelia-templating/children',["exports"], function (exports) {
-  
+
 
   var _classCallCheck = function (instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } };
 
@@ -14165,7 +14165,7 @@ define('aurelia-templating/children',["exports"], function (exports) {
   exports.ChildObserverBinder = ChildObserverBinder;
 });
 define('aurelia-templating/element-config',['exports', 'aurelia-metadata', 'aurelia-binding'], function (exports, _aureliaMetadata, _aureliaBinding) {
-  
+
 
   var _classCallCheck = function (instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError('Cannot call a class as a function'); } };
 
@@ -14208,7 +14208,7 @@ define('aurelia-templating/element-config',['exports', 'aurelia-metadata', 'aure
   exports.ElementConfigResource = ElementConfigResource;
 });
 define('aurelia-templating/composition-engine',['exports', 'aurelia-metadata', './view-strategy', './view-engine', './html-behavior'], function (exports, _aureliaMetadata, _viewStrategy, _viewEngine, _htmlBehavior) {
-  
+
 
   var _classCallCheck = function (instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError('Cannot call a class as a function'); } };
 
@@ -14351,7 +14351,7 @@ define('aurelia-templating/composition-engine',['exports', 'aurelia-metadata', '
   exports.CompositionEngine = CompositionEngine;
 });
 define('aurelia-templating/decorators',['exports', 'core-js', 'aurelia-metadata', './bindable-property', './children', './element-config', './view-strategy', './html-behavior'], function (exports, _coreJs, _aureliaMetadata, _bindableProperty, _children, _elementConfig, _viewStrategy, _htmlBehavior) {
-  
+
 
   var _interopRequire = function (obj) { return obj && obj.__esModule ? obj['default'] : obj; };
 
@@ -14517,7 +14517,7 @@ define('aurelia-templating/decorators',['exports', 'core-js', 'aurelia-metadata'
   _aureliaMetadata.Decorators.configure.simpleDecorator('elementConfig', elementConfig);
 });
 define('aurelia-templating/index',['exports', './html-behavior', './bindable-property', './resource-registry', './children', './element-config', './view-strategy', './view-compiler', './view-engine', './view-factory', './view-slot', './binding-language', './composition-engine', './animator', './decorators'], function (exports, _htmlBehavior, _bindableProperty, _resourceRegistry, _children, _elementConfig, _viewStrategy, _viewCompiler, _viewEngine, _viewFactory, _viewSlot, _bindingLanguage, _compositionEngine, _animator, _decorators) {
-  
+
 
   var _interopRequireWildcard = function (obj) { return obj && obj.__esModule ? obj : { 'default': obj }; };
 
@@ -14640,7 +14640,7 @@ define('aurelia-templating/index',['exports', './html-behavior', './bindable-pro
 define('aurelia-templating', ['aurelia-templating/index'], function (main) { return main; });
 
 define('aurelia-framework/aurelia',['exports', 'core-js', 'aurelia-logging', 'aurelia-dependency-injection', 'aurelia-loader', 'aurelia-path', './plugins', 'aurelia-templating'], function (exports, _coreJs, _aureliaLogging, _aureliaDependencyInjection, _aureliaLoader, _aureliaPath, _plugins, _aureliaTemplating) {
-  
+
 
   var _interopRequire = function (obj) { return obj && obj.__esModule ? obj['default'] : obj; };
 
@@ -14827,7 +14827,7 @@ define('aurelia-framework/aurelia',['exports', 'core-js', 'aurelia-logging', 'au
   exports.Aurelia = Aurelia;
 });
 define('aurelia-framework/index',['exports', 'aurelia-logging', './aurelia', 'aurelia-dependency-injection', 'aurelia-binding', 'aurelia-metadata', 'aurelia-templating', 'aurelia-loader', 'aurelia-task-queue'], function (exports, _aureliaLogging, _aurelia, _aureliaDependencyInjection, _aureliaBinding, _aureliaMetadata, _aureliaTemplating, _aureliaLoader, _aureliaTaskQueue) {
-  
+
 
   var _interopRequireWildcard = function (obj) { return obj && obj.__esModule ? obj : { 'default': obj }; };
 
@@ -14861,7 +14861,7 @@ define('aurelia-framework/index',['exports', 'aurelia-logging', './aurelia', 'au
 define('aurelia-framework', ['aurelia-framework/index'], function (main) { return main; });
 
 define('aurelia-route-recognizer/dsl',['exports', 'core-js'], function (exports, _coreJs) {
-  
+
 
   var _interopRequire = function (obj) { return obj && obj.__esModule ? obj['default'] : obj; };
 
@@ -14997,7 +14997,7 @@ define('aurelia-route-recognizer/dsl',['exports', 'core-js'], function (exports,
   }
 });
 define('aurelia-route-recognizer/index',['exports', 'core-js', './dsl'], function (exports, _coreJs, _dsl) {
-  
+
 
   var _interopRequire = function (obj) { return obj && obj.__esModule ? obj['default'] : obj; };
 
@@ -15677,7 +15677,7 @@ define('aurelia-route-recognizer/index',['exports', 'core-js', './dsl'], functio
 define('aurelia-route-recognizer', ['aurelia-route-recognizer/index'], function (main) { return main; });
 
 define('aurelia-router/navigation-commands',['exports', 'core-js'], function (exports, _coreJs) {
-  
+
 
   var _interopRequire = function (obj) { return obj && obj.__esModule ? obj['default'] : obj; };
 
@@ -15724,7 +15724,7 @@ define('aurelia-router/navigation-commands',['exports', 'core-js'], function (ex
   exports.Redirect = Redirect;
 });
 define('aurelia-router/navigation-plan',['exports', './navigation-commands'], function (exports, _navigationCommands) {
-  
+
 
   var _toConsumableArray = function (arr) { if (Array.isArray(arr)) { for (var i = 0, arr2 = Array(arr.length); i < arr.length; i++) arr2[i] = arr[i]; return arr2; } else { return Array.from(arr); } };
 
@@ -15849,7 +15849,7 @@ define('aurelia-router/navigation-plan',['exports', './navigation-commands'], fu
   }
 });
 define('aurelia-router/navigation-context',['exports', './navigation-plan'], function (exports, _navigationPlan) {
-  
+
 
   var _classCallCheck = function (instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError('Cannot call a class as a function'); } };
 
@@ -16024,7 +16024,7 @@ define('aurelia-router/navigation-context',['exports', './navigation-plan'], fun
   exports.CommitChangesStep = CommitChangesStep;
 });
 define('aurelia-router/navigation-instruction',["exports"], function (exports) {
-  
+
 
   var _classCallCheck = function (instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } };
 
@@ -16105,7 +16105,7 @@ define('aurelia-router/navigation-instruction',["exports"], function (exports) {
   exports.NavigationInstruction = NavigationInstruction;
 });
 define('aurelia-router/route-filters',['exports', 'aurelia-dependency-injection'], function (exports, _aureliaDependencyInjection) {
-  
+
 
   var _toConsumableArray = function (arr) { if (Array.isArray(arr)) { for (var i = 0, arr2 = Array(arr.length); i < arr.length; i++) arr2[i] = arr[i]; return arr2; } else { return Array.from(arr); } };
 
@@ -16209,7 +16209,7 @@ define('aurelia-router/route-filters',['exports', 'aurelia-dependency-injection'
   })();
 });
 define('aurelia-router/router-configuration',['exports', './route-filters'], function (exports, _routeFilters) {
-  
+
 
   var _classCallCheck = function (instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError('Cannot call a class as a function'); } };
 
@@ -16385,7 +16385,7 @@ define('aurelia-router/router-configuration',['exports', './route-filters'], fun
   }
 });
 define('aurelia-router/util',['exports'], function (exports) {
-  
+
 
   Object.defineProperty(exports, '__esModule', {
     value: true
@@ -16413,7 +16413,7 @@ define('aurelia-router/util',['exports'], function (exports) {
   }
 });
 define('aurelia-router/router',['exports', 'core-js', 'aurelia-route-recognizer', 'aurelia-path', './navigation-context', './navigation-instruction', './router-configuration', './util'], function (exports, _coreJs, _aureliaRouteRecognizer, _aureliaPath, _navigationContext, _navigationInstruction, _routerConfiguration, _util) {
-  
+
 
   var _interopRequire = function (obj) { return obj && obj.__esModule ? obj['default'] : obj; };
 
@@ -16738,7 +16738,7 @@ define('aurelia-router/router',['exports', 'core-js', 'aurelia-route-recognizer'
   }
 });
 define('aurelia-router/pipeline',['exports', 'core-js'], function (exports, _coreJs) {
-  
+
 
   var _interopRequire = function (obj) { return obj && obj.__esModule ? obj['default'] : obj; };
 
@@ -16854,7 +16854,7 @@ define('aurelia-router/pipeline',['exports', 'core-js'], function (exports, _cor
   exports.Pipeline = Pipeline;
 });
 define('aurelia-router/route-loading',['exports', './navigation-plan'], function (exports, _navigationPlan) {
-  
+
 
   var _toConsumableArray = function (arr) { if (Array.isArray(arr)) { for (var i = 0, arr2 = Array(arr.length); i < arr.length; i++) arr2[i] = arr[i]; return arr2; } else { return Array.from(arr); } };
 
@@ -16996,7 +16996,7 @@ define('aurelia-router/route-loading',['exports', './navigation-plan'], function
   }
 });
 define('aurelia-router/activation',['exports', './navigation-plan', './navigation-commands', './util'], function (exports, _navigationPlan, _navigationCommands, _util) {
-  
+
 
   var _toConsumableArray = function (arr) { if (Array.isArray(arr)) { for (var i = 0, arr2 = Array(arr.length); i < arr.length; i++) arr2[i] = arr[i]; return arr2; } else { return Array.from(arr); } };
 
@@ -17242,7 +17242,7 @@ define('aurelia-router/activation',['exports', './navigation-plan', './navigatio
   }
 });
 define('aurelia-router/pipeline-provider',['exports', 'aurelia-dependency-injection', './pipeline', './navigation-plan', './route-loading', './navigation-context', './activation', './route-filters'], function (exports, _aureliaDependencyInjection, _pipeline, _navigationPlan, _routeLoading, _navigationContext, _activation, _routeFilters) {
-  
+
 
   var _classCallCheck = function (instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError('Cannot call a class as a function'); } };
 
@@ -17284,7 +17284,7 @@ define('aurelia-router/pipeline-provider',['exports', 'aurelia-dependency-inject
   exports.PipelineProvider = PipelineProvider;
 });
 define('aurelia-router/app-router',['exports', 'core-js', 'aurelia-dependency-injection', 'aurelia-history', './router', './pipeline-provider', './navigation-commands', 'aurelia-event-aggregator'], function (exports, _coreJs, _aureliaDependencyInjection, _aureliaHistory, _router, _pipelineProvider, _navigationCommands, _aureliaEventAggregator) {
-  
+
 
   var _interopRequire = function (obj) { return obj && obj.__esModule ? obj['default'] : obj; };
 
@@ -17492,7 +17492,7 @@ define('aurelia-router/app-router',['exports', 'core-js', 'aurelia-dependency-in
   }
 });
 define('aurelia-router/index',['exports', './router', './app-router', './pipeline-provider', './navigation-commands', './route-loading', './router-configuration', './navigation-plan', './route-filters'], function (exports, _router, _appRouter, _pipelineProvider, _navigationCommands, _routeLoading, _routerConfiguration, _navigationPlan, _routeFilters) {
-  
+
 
   Object.defineProperty(exports, '__esModule', {
     value: true
@@ -17567,7 +17567,7 @@ define('aurelia-router/index',['exports', './router', './app-router', './pipelin
 define('aurelia-router', ['aurelia-router/index'], function (main) { return main; });
 
 define('aurelia-templating-binding/syntax-interpreter',['exports', 'aurelia-binding'], function (exports, _aureliaBinding) {
-  
+
 
   var _classCallCheck = function (instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError('Cannot call a class as a function'); } };
 
@@ -17762,7 +17762,7 @@ define('aurelia-templating-binding/syntax-interpreter',['exports', 'aurelia-bind
   };
 });
 define('aurelia-templating-binding/binding-language',['exports', 'aurelia-templating', 'aurelia-binding', './syntax-interpreter', 'aurelia-logging'], function (exports, _aureliaTemplating, _aureliaBinding, _syntaxInterpreter, _aureliaLogging) {
-  
+
 
   var _classCallCheck = function (instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError('Cannot call a class as a function'); } };
 
@@ -18072,7 +18072,7 @@ define('aurelia-templating-binding/binding-language',['exports', 'aurelia-templa
   })();
 });
 define('aurelia-templating-binding/index',['exports', 'aurelia-templating', './binding-language', './syntax-interpreter'], function (exports, _aureliaTemplating, _bindingLanguage, _syntaxInterpreter) {
-  
+
 
   Object.defineProperty(exports, '__esModule', {
     value: true
@@ -18100,7 +18100,7 @@ define('aurelia-templating-binding/index',['exports', 'aurelia-templating', './b
 define('aurelia-templating-binding', ['aurelia-templating-binding/index'], function (main) { return main; });
 
 define('aurelia-templating-resources/compose',['exports', 'aurelia-dependency-injection', 'aurelia-templating'], function (exports, _aureliaDependencyInjection, _aureliaTemplating) {
-  
+
 
   var _classCallCheck = function (instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError('Cannot call a class as a function'); } };
 
@@ -18172,7 +18172,7 @@ define('aurelia-templating-resources/compose',['exports', 'aurelia-dependency-in
   }
 });
 define('aurelia-templating-resources/if',['exports', 'aurelia-templating', 'aurelia-dependency-injection'], function (exports, _aureliaTemplating, _aureliaDependencyInjection) {
-  
+
 
   var _classCallCheck = function (instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError('Cannot call a class as a function'); } };
 
@@ -18229,7 +18229,7 @@ define('aurelia-templating-resources/if',['exports', 'aurelia-templating', 'aure
   exports.If = If;
 });
 define('aurelia-templating-resources/with',['exports', 'aurelia-dependency-injection', 'aurelia-templating'], function (exports, _aureliaDependencyInjection, _aureliaTemplating) {
-  
+
 
   var _classCallCheck = function (instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError('Cannot call a class as a function'); } };
 
@@ -18268,7 +18268,7 @@ define('aurelia-templating-resources/with',['exports', 'aurelia-dependency-injec
   exports.With = With;
 });
 define('aurelia-templating-resources/repeat',['exports', 'aurelia-dependency-injection', 'aurelia-binding', 'aurelia-templating'], function (exports, _aureliaDependencyInjection, _aureliaBinding, _aureliaTemplating) {
-  
+
 
   var _classCallCheck = function (instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError('Cannot call a class as a function'); } };
 
@@ -18608,7 +18608,7 @@ define('aurelia-templating-resources/repeat',['exports', 'aurelia-dependency-inj
   exports.Repeat = Repeat;
 });
 define('aurelia-templating-resources/show',['exports', 'aurelia-dependency-injection', 'aurelia-templating'], function (exports, _aureliaDependencyInjection, _aureliaTemplating) {
-  
+
 
   var _classCallCheck = function (instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError('Cannot call a class as a function'); } };
 
@@ -18653,7 +18653,7 @@ define('aurelia-templating-resources/show',['exports', 'aurelia-dependency-injec
   exports.Show = Show;
 });
 define('aurelia-templating-resources/global-behavior',['exports', 'aurelia-dependency-injection', 'aurelia-templating', 'aurelia-logging'], function (exports, _aureliaDependencyInjection, _aureliaTemplating, _aureliaLogging) {
-  
+
 
   var _classCallCheck = function (instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError('Cannot call a class as a function'); } };
 
@@ -18763,7 +18763,7 @@ define('aurelia-templating-resources/global-behavior',['exports', 'aurelia-depen
   };
 });
 define('aurelia-templating-resources/sanitize-html',['exports', 'aurelia-binding'], function (exports, _aureliaBinding) {
-  
+
 
   var _classCallCheck = function (instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError('Cannot call a class as a function'); } };
 
@@ -18805,7 +18805,7 @@ define('aurelia-templating-resources/sanitize-html',['exports', 'aurelia-binding
   exports.SanitizeHtmlValueConverter = SanitizeHtmlValueConverter;
 });
 define('aurelia-templating-resources/index',['exports', './compose', './if', './with', './repeat', './show', './global-behavior', './sanitize-html'], function (exports, _compose, _if, _with, _repeat, _show, _globalBehavior, _sanitizeHtml) {
-  
+
 
   Object.defineProperty(exports, '__esModule', {
     value: true
@@ -18827,7 +18827,7 @@ define('aurelia-templating-resources/index',['exports', './compose', './if', './
 define('aurelia-templating-resources', ['aurelia-templating-resources/index'], function (main) { return main; });
 
 define('aurelia-templating-router/route-loader',['exports', 'aurelia-dependency-injection', 'aurelia-templating', 'aurelia-router', 'aurelia-path', 'aurelia-metadata'], function (exports, _aureliaDependencyInjection, _aureliaTemplating, _aureliaRouter, _aureliaPath, _aureliaMetadata) {
-  
+
 
   var _classCallCheck = function (instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError('Cannot call a class as a function'); } };
 
@@ -18881,7 +18881,7 @@ define('aurelia-templating-router/route-loader',['exports', 'aurelia-dependency-
   exports.TemplatingRouteLoader = TemplatingRouteLoader;
 });
 define('aurelia-templating-router/router-view',['exports', 'aurelia-dependency-injection', 'aurelia-templating', 'aurelia-router', 'aurelia-metadata'], function (exports, _aureliaDependencyInjection, _aureliaTemplating, _aureliaRouter, _aureliaMetadata) {
-  
+
 
   var _classCallCheck = function (instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError('Cannot call a class as a function'); } };
 
@@ -18960,7 +18960,7 @@ define('aurelia-templating-router/router-view',['exports', 'aurelia-dependency-i
   exports.RouterView = RouterView;
 });
 define('aurelia-templating-router/index',['exports', 'aurelia-router', './route-loader', './router-view'], function (exports, _aureliaRouter, _routeLoader, _routerView) {
-  
+
 
   Object.defineProperty(exports, '__esModule', {
     value: true
@@ -18977,7 +18977,7 @@ define('aurelia-templating-router/index',['exports', 'aurelia-router', './route-
 define('aurelia-templating-router', ['aurelia-templating-router/index'], function (main) { return main; });
 
 define('aurelia-http-client/headers',['exports'], function (exports) {
-  
+
 
   var _classCallCheck = function (instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError('Cannot call a class as a function'); } };
 
@@ -19051,7 +19051,7 @@ define('aurelia-http-client/headers',['exports'], function (exports) {
   exports.Headers = Headers;
 });
 define('aurelia-http-client/http-response-message',["exports", "./headers"], function (exports, _headers) {
-  
+
 
   var _classCallCheck = function (instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } };
 
@@ -19152,7 +19152,7 @@ define('aurelia-http-client/http-response-message',["exports", "./headers"], fun
   exports.mimeTypes = mimeTypes;
 });
 define('aurelia-http-client/request-message-processor',['exports', 'core-js', './http-response-message', 'aurelia-path'], function (exports, _coreJs, _httpResponseMessage, _aureliaPath) {
-  
+
 
   var _interopRequire = function (obj) { return obj && obj.__esModule ? obj['default'] : obj; };
 
@@ -19255,7 +19255,7 @@ define('aurelia-http-client/request-message-processor',['exports', 'core-js', '.
   exports.RequestMessageProcessor = RequestMessageProcessor;
 });
 define('aurelia-http-client/transformers',['exports'], function (exports) {
-  
+
 
   Object.defineProperty(exports, '__esModule', {
     value: true
@@ -19335,7 +19335,7 @@ define('aurelia-http-client/transformers',['exports'], function (exports) {
   }
 });
 define('aurelia-http-client/http-request-message',['exports', './headers', './request-message-processor', './transformers'], function (exports, _headers, _requestMessageProcessor, _transformers) {
-  
+
 
   var _classCallCheck = function (instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError('Cannot call a class as a function'); } };
 
@@ -19361,7 +19361,7 @@ define('aurelia-http-client/http-request-message',['exports', './headers', './re
   }
 });
 define('aurelia-http-client/jsonp-request-message',['exports', './headers', './request-message-processor', './transformers'], function (exports, _headers, _requestMessageProcessor, _transformers) {
-  
+
 
   var _createClass = (function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ('value' in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; })();
 
@@ -19450,7 +19450,7 @@ define('aurelia-http-client/jsonp-request-message',['exports', './headers', './r
   }
 });
 define('aurelia-http-client/request-builder',['exports', 'aurelia-path', './http-request-message', './jsonp-request-message'], function (exports, _aureliaPath, _httpRequestMessage, _jsonpRequestMessage) {
-  
+
 
   var _classCallCheck = function (instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError('Cannot call a class as a function'); } };
 
@@ -19612,7 +19612,7 @@ define('aurelia-http-client/request-builder',['exports', 'aurelia-path', './http
   });
 });
 define('aurelia-http-client/http-client',['exports', 'core-js', './headers', './request-builder', './http-request-message', './jsonp-request-message'], function (exports, _coreJs, _headers, _requestBuilder, _httpRequestMessage, _jsonpRequestMessage) {
-  
+
 
   var _interopRequire = function (obj) { return obj && obj.__esModule ? obj['default'] : obj; };
 
@@ -19764,7 +19764,7 @@ define('aurelia-http-client/http-client',['exports', 'core-js', './headers', './
   exports.HttpClient = HttpClient;
 });
 define('aurelia-http-client/index',['exports', './http-client', './http-request-message', './http-response-message', './jsonp-request-message', './headers', './request-builder'], function (exports, _httpClient, _httpRequestMessage, _httpResponseMessage, _jsonpRequestMessage, _headers, _requestBuilder) {
-  
+
 
   Object.defineProperty(exports, '__esModule', {
     value: true
@@ -19815,7 +19815,7 @@ define('aurelia-http-client/index',['exports', './http-client', './http-request-
 define('aurelia-http-client', ['aurelia-http-client/index'], function (main) { return main; });
 
 define('aurelia-bootstrapper',['exports', 'core-js', 'aurelia-framework', 'aurelia-logging-console'], function (exports, _coreJs, _aureliaFramework, _aureliaLoggingConsole) {
-  
+
 
   var _interopRequire = function (obj) { return obj && obj.__esModule ? obj['default'] : obj; };
 
@@ -20082,7 +20082,7 @@ define('aurelia-bootstrapper',['exports', 'core-js', 'aurelia-framework', 'aurel
 
     return el.isTemplate_;
   }
-  
+
   function extractTemplateFromSVGTemplate(el) {
     var template = el.ownerDocument.createElement('template');
     el.parentNode.insertBefore(template, el);
@@ -20289,4 +20289,3 @@ define("aurelia-bundle-manifest", [
 ){
     alert(_dependency_injection.inject)
   });
-
